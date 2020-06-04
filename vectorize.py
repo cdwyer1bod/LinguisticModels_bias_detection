@@ -99,7 +99,6 @@ def vectorize_pos_n(pos, n, POS_FREQ_DIST):
 #      potentially when running big function include option to redo freq lists
 
 
-POS_FREQ_DIST, WORD_FREQ_DIST = get_freqs("./final_datasets/test-sents-final1.csv")
+POS_FREQ_DIST, WORD_FREQ_DIST = get_freqs("./final_datasets/train-sents-final1.csv")
 print(WORD_FREQ_DIST)
 print(POS_FREQ_DIST)
-
